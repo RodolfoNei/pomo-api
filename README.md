@@ -4,7 +4,41 @@
 - Laravel API
 - React/Typescript
 - Model
-    - id
-    - subject
-        - estudo
-        - trabalho
+    - Pomodoro   
+        - id
+        - subject
+        - duration
+        - datetime
+        - level of difficulty / comfort zone
+        - review/learning
+        - criado em
+        - criado por
+        - atualizado em
+        - atualizado por
+    - Level of difficult / Comfort Zone
+        - id
+        - name
+    - Subject    
+        - id
+        - name
+        - criado em
+        - criado por
+        - atualizado em
+        - atualizado por
+    - Pomodoro Sauce
+        - id
+        - pomodoros
+        - weekday
+        - criado em
+        - criado por
+        - atualizado em
+        - atualizado por
+    - Schedule
+        - id
+        - pomodoro sauce 
+        - criado em
+        - criado por
+        - atualizado em
+        - atualizado por
+ - UI
+    -  
