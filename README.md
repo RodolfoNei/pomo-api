@@ -41,4 +41,7 @@
         - atualizado em
         - atualizado por
  - UI
-    -  
+
+## ToDos
+- Desenvolver uma versão básica para deploy (estudar maneiras de deploy)
+- Terminar modelo lógico
