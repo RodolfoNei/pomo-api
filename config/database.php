@@ -78,19 +78,12 @@ return [
             'sslmode' => 'prefer',
         ],
 
-        'pgsql_test' => [
-            'driver' => 'pgsql',
-            'url' => env('DATABASE_TEST_URL'),
-            'host' => env('DB_TEST_HOST', '127.0.0.1'),
-            'port' => env('DB_TEST_PORT', '5432'),
-            'database' => env('DB_TEST_DATABASE', 'forge'),
-            'username' => env('DB_TEST_USERNAME', 'forge'),
-            'password' => env('DB_TEST_PASSWORD', ''),
-            'charset' => 'utf8',
+        'sqlite_test' => [
+            'driver' => 'sqlite',
+            'url' => env('DATABASE_URL'),
+            'database' => env('DB_DATABASE', database_path('database.sqlite')),
             'prefix' => '',
-            'prefix_indexes' => true,
-            'schema' => 'public',
-            'sslmode' => 'prefer',
+            'foreign_key_constraints' => env('DB_FOREIGN_KEYS', true),
         ],
 
         'sqlsrv' => [

@@ -48,6 +48,7 @@
 ## ToDos
 - Desenvolver uma versão básica para deploy (estudar maneiras de deploy)
     - CRUD básico de um pomodoro REST API
+    - Estudar melhor a configuração de databases para testes
 - Terminar modelo lógico
 - Pensar na dinâmica de uso de um pomo manager
     - 1
