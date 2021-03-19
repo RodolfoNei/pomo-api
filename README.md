@@ -5,6 +5,7 @@
 - TDD
 - Laravel API
 - React/Typescript
+- Docker
 - Model
     - Pomodoro   
         - id
@@ -46,6 +47,8 @@
 
 ## ToDos
 - Desenvolver uma versão básica para deploy (estudar maneiras de deploy)
+    - CRUD básico de um pomodoro REST API
+    - Estudar melhor a configuração de databases para testes
 - Terminar modelo lógico
 - Pensar na dinâmica de uso de um pomo manager
     - 1
@@ -57,4 +60,5 @@
         - Usar pomodoros primeiro em uma agenda mais livre
         - Organizar os pomodoros em uma agenda e avaliar os resultados
         - Adaptar a agenda 
-     
+- Duas versões distintas de Composer rolando (uma local e uma geral?)
+- Erro no install do Passport
