@@ -60,5 +60,3 @@
         - Usar pomodoros primeiro em uma agenda mais livre
         - Organizar os pomodoros em uma agenda e avaliar os resultados
         - Adaptar a agenda 
-- Duas versões distintas de Composer rolando (uma local e uma geral?)
-- Erro no install do Passport
